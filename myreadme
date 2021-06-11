@@ -4,4 +4,7 @@ python demo/image_demo.py demo/demo.jpg configs/pspnet/pspnet_r50-d8_512x1024_40
 2. module not found:
 not requirements
 3. mmcv-full version:
-pip install mmcv-full==latest+torch1.6.0+cu101 -f https://download.openmmlab.com/mmcv/dist/index.html
+original:pip install mmcv-full==latest+torch1.5.0+cu101 -f https://download.openmmlab.com/mmcv/dist/index.html  ?should be 1.6.0
+web:pip install mmcv-full==1.2.4 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.8.0/index.html
+success:
+pip install mmcv-full==1.2.4 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html 
