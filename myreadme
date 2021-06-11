@@ -8,3 +8,4 @@ original:pip install mmcv-full==latest+torch1.5.0+cu101 -f https://download.open
 web:pip install mmcv-full==1.2.4 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.8.0/index.html
 success:
 pip install mmcv-full==1.2.4 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html 
+4. .pth is not a checkpoint file
